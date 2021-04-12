@@ -22,9 +22,10 @@ const  dbconnect = mysql.createConnection({
 
 const app = express();
 
-var corsOptions = {
-  origin: "http://localhost:8081"
-};
+// var corsOptions = {
+//   origin: "http://localhost:8081"
+// };
+app.use(cors())
 
 app.use(cors(corsOptions));
 
