@@ -27,7 +27,7 @@ const app = express();
 // };
 app.use(cors())
 
-app.use(cors(corsOptions));
+// app.use(cors(corsOptions));
 
 // parse requests of content-type - application/json
 app.use(bodyParser.json());
