@@ -7,9 +7,9 @@ const mysql = require('mysql2')
 const  dbconnect = mysql.createConnection({
   host: "sql6.freemysqlhosting.net",
   port:"3306",
-  user: "sql6405069",
-  password: "RSL8MWlcGs",
-  database: "sql6405069",
+  user: "sql6410446",
+  password: "cFQFAnb2xX",
+  database: "sql6410446",
   dialect: "mysql",
   multipleStatements: true,
   pool: {
